@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+.title-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.header-intro{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: .2rem;
+    margin-bottom: 2.5rem;
+}
+
+/* Main, 3 cards */
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+    .card {
+  width: 100%;          /* Keeps cards readable and consistent */
+  margin: 0 auto;             /* Centers card if needed */
+  padding: 1.5rem;            /* Adds internal spacing */
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: subtle depth */
+  display: block;             /* Ensures it's treated as a block element */
+}
+ 
+
+
+.shop-name{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.shop-images{
+    width: 100%;
+    height: auto;
+}
+
+.motto {
+    font-size: 1rem;
+}
+
+.visit-btn{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: .5rem;
+    margin: .3rem;
+}
