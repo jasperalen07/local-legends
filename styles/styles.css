@@ -68,3 +68,135 @@ body{
     padding: .5rem;
     margin: .3rem;
 }
+
+/* Footer */
+.footer-container{
+    display: flex;
+flex-direction: column;
+align-items: center;
+    background-color: grey;
+    color: antiquewhite;
+}
+
+.founder{
+    font-size: 1.3rem;
+}
+
+@media (min-width:48rem) {
+    /* Header */
+
+
+
+.title{
+    font-size: 2.5rem;
+    margin-top: 2.7rem;
+}
+
+.header-intro{
+    font-size: 1.5rem;
+}
+
+/* Main, 3 cards */
+
+.cards {
+  gap: 3rem;
+  justify-content: center;
+  padding: 3rem;
+}
+
+    .card {
+ display: block;
+}
+ 
+.shop-name{
+    font-size: 2rem;
+
+}
+
+.shop-images {
+  display: block;
+  margin: 0 auto;
+  width: 80%; /* or 100% for full width */
+  height: auto;
+}
+
+.motto {
+    font-size: 1.5rem;
+        text-align: center;
+}
+
+.visit-btn{
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 2rem auto 0 auto; /* top margin only, centered horizontally */
+  display: block;           /* ensures it respects auto margins */
+  width: fit-content;       /* keeps it from stretching full width */
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+
+}
+
+/* Footer */
+
+
+.founder{
+    font-size: 2rem;
+}
+
+  .footer-container{
+    background-color: grey;
+    color: antiquewhite;
+  }
+
+
+
+}
+
+
+
+@media (min-width: 64rem) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 2rem;
+    padding: 3rem;
+  }
+
+  .card {
+    width: 100%; /* grid handles sizing */
+    padding: 1.5rem;
+  }
+
+  .shop-images {
+    width: 100%; /* fills card width */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .visit-btn {
+    margin-top: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .visit-btn:hover{
+    background-color: grey;
+    color: antiquewhite;
+  }
+
+  /* footer */
+
+  .footer-container{
+    background-color: grey;
+    color: antiquewhite;
+  }
+
+  .founder{
+    font-size: 1.7rem;
+  }
+}
+
